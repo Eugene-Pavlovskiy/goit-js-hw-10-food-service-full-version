@@ -13,4 +13,4 @@ module.exports=[{id:"XWaQXcbk0",name:"Картофель, запеченный �
 },{"../templates/menu.hbs":"dgbP","./menu.json":"NkM5"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/menu");
 },{"./sass/main.scss":"clu1","./js/menu":"i0CD"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.7632f3f3.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service-full-version/src.a7892dbd.js.map
