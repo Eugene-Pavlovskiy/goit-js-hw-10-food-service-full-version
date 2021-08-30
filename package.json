@@ -1,24 +1,24 @@
 {
-  "name": "goit-js-hw-10-food-service",
+  "name": "goit-js-hw-10-food-service-full-version",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://eugene-pavlovskiy.github.io/goit-js-hw-10-food-service",
+  "homepage": "https://eugene-pavlovskiy.github.io/goit-js-hw-10-food-service-full-version",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service/",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service-full-version/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eugene-Pavlovskiy/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/Eugene-Pavlovskiy/goit-js-hw-10-food-service-full-version.git"
   },
   "keywords": [],
   "author": "Eugene-Pavlovskiy <infopavlovskiy@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Eugene-Pavlovskiy/goit-js-hw-10-food-service/issues"
+    "url": "https://github.com/Eugene-Pavlovskiy/goit-js-hw-10-food-service-full-version/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
