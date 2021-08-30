@@ -292,4 +292,59 @@ body.dark-theme {
 .button__icon {
   margin-right: 8px;
 }
+
+/* FOOTER */
+footer .section .teal .darken-2 .white-text .center {
+  background-color: yellow;
+}
+
+/* SOCIAL */
+.social {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: #fff;
+  font-family: verdana;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-animation: new .5s linear infinite;
+          animation: new .5s linear infinite;
+  margin-top: -50px;
+}
+
+.social a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+@-webkit-keyframes new {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  50% {
+    -webkit-transform: scaleX(0.95);
+            transform: scaleX(0.95);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes new {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  50% {
+    -webkit-transform: scaleX(0.95);
+            transform: scaleX(0.95);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
 /*# sourceMappingURL=main.css.map */

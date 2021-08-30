@@ -12,10 +12,59 @@
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+
     <include src="./partials/toolbar.html"></include>
     <include src="./partials/menu.html"></include>
 
+    <!-- Footer -->
+    <div>
+      <footer class="main__footer">
+        <p class="flow--text">RestoDishes &copy; 2021 </p>
+      </footer>
+    </div>
+    
+
+    <div class="social">
+    <a href="https://www.youtube.com/" target="_blank">Click Here For More Info</a>
+    </div>
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js" type="text/javascript" charset="utf-8"></script>
+    <!-- <script src='https://code.jquery.com/jquery-3.3.1.js'></script> -->
+    <!-- <script id="rendered-js">
+    var $els = $('.menu a, .menu header');
+    var count = $els.length;
+    var grouplength = Math.ceil(count / 3);
+    var groupNumber = 0;
+    var i = 1;
+    $('.menu').css('--count', count + '');
+    $els.each(function (j) {
+      if (i > grouplength) {
+        groupNumber++;
+        i = 1;
+      }
+      $(this).attr('data-group', groupNumber);
+      i++;
+    });
+
+    $('.menu footer button').on('click', function (e) {
+      e.preventDefault();
+      $els.each(function (j) {
+        $(this).css('--top', $(this)[0].getBoundingClientRect().top + $(this).attr('data-group') * -15 - 20);
+        $(this).css('--delay-in', j * .1 + 's');
+        $(this).css('--delay-out', (count - j) * .1 + 's');
+      });
+      $('.menu').toggleClass('closed');
+      e.stopPropagation();
+    });
+
+    // run animation once at beginning for demo
+    setTimeout(function () {
+      $('.menu footer button').click();
+      setTimeout(function () {
+        $('.menu footer button').click();
+      }, count * 100 + 500);
+    }, 1000);
+    //# sourceURL=pen.js
+    </script> -->
   </body>
 </html>
