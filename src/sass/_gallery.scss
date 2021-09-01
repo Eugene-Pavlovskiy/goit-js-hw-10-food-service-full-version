@@ -1,0 +1,15 @@
+.gallery__list {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    
+    text-decoration: none;
+}
+
+img {
+    display: flex;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}

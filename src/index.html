@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Заголовок страницы</title>
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
     <link rel="stylesheet" href="sass/main.scss" />
+    <!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script> -->
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
@@ -28,43 +27,9 @@
     <a href="https://www.youtube.com/" target="_blank">Click Here For More Info</a>
     </div>
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-    <script src="./index.js" type="text/javascript" charset="utf-8"></script>
-    <!-- <script src='https://code.jquery.com/jquery-3.3.1.js'></script> -->
-    <!-- <script id="rendered-js">
-    var $els = $('.menu a, .menu header');
-    var count = $els.length;
-    var grouplength = Math.ceil(count / 3);
-    var groupNumber = 0;
-    var i = 1;
-    $('.menu').css('--count', count + '');
-    $els.each(function (j) {
-      if (i > grouplength) {
-        groupNumber++;
-        i = 1;
-      }
-      $(this).attr('data-group', groupNumber);
-      i++;
-    });
+    <!-- <script src="./js/dishes.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/2.0.0/trianglify.min.js"></script> -->
+    <script src="./index.js" type="module" charset="utf-8"></script>
 
-    $('.menu footer button').on('click', function (e) {
-      e.preventDefault();
-      $els.each(function (j) {
-        $(this).css('--top', $(this)[0].getBoundingClientRect().top + $(this).attr('data-group') * -15 - 20);
-        $(this).css('--delay-in', j * .1 + 's');
-        $(this).css('--delay-out', (count - j) * .1 + 's');
-      });
-      $('.menu').toggleClass('closed');
-      e.stopPropagation();
-    });
-
-    // run animation once at beginning for demo
-    setTimeout(function () {
-      $('.menu footer button').click();
-      setTimeout(function () {
-        $('.menu footer button').click();
-      }, count * 100 + 500);
-    }, 1000);
-    //# sourceURL=pen.js
-    </script> -->
   </body>
 </html>
